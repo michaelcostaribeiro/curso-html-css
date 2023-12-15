@@ -1,0 +1,14 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(255, 219, 171);
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+h1#luna{
+    background-color: rgb(75, 57, 35);
+    text-align: center;
+    color: beige;
+
+}

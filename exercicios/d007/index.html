@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio flexão de imagens</title>
+    <link rel="shortcut icon" href="../ex004/" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Observe a flexibilidade da imagem ao você aumentar e diminuir o tamanho da página &#x1F600</p>
+    <picture>
+        <source media="(max-width:800px )" srcset="img/paisagem-p.png" type="image/png">
+        <source media="(max-width:1250px )" srcset="img/paisagem-m.png" type="image/png">
+        <!-- <source media="(max-width:315px )" srcset="img/paisagem-p.png" type="image/png"> -->
+        <img src="img/paisagem-g.png" alt="">
+    </picture>
+
+    
+</body>
+</html>
