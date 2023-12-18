@@ -31,9 +31,7 @@ header{
     background-image:linear-gradient(to bottom,var(--cor1), var(--cor2));
     text-align: center;
     padding-top: 20px;
-    max-width: 100%;
-    min-width: 450px;
-    min-height: 150px;
+
 }
 
 header > h1{
