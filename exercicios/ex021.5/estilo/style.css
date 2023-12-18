@@ -31,7 +31,7 @@ header{
     background-image:linear-gradient(to bottom,var(--cor1), var(--cor2));
     text-align: center;
     padding-top: 20px;
-
+    margin: auto;
 }
 
 header > h1{
