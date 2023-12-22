@@ -59,6 +59,7 @@ p > a{
     background-image: url('../imagens/background001.jpg');
     background-size: cover;
     background-position: 100% center;
+    background-attachment: fixed;
 
     margin-bottom: 100px;
 }
@@ -80,6 +81,7 @@ p > a{
     background-image: url('../imagens/background002.jpg');
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
 
     margin-bottom: 100px;
 }
