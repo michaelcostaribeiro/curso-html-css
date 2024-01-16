@@ -47,7 +47,7 @@ p > a{
 .texto{
     font-family: cursiva, Geneva, Tahoma, sans-serif;
     max-width: 450px;
-    font-size: 2.5em;
+    font-size: 2em;
     padding: 30px;
     color: rgb(0, 0, 0);  
 }
@@ -72,7 +72,7 @@ p > a{
 .textobranco{
     font-family: cursiva, Geneva, Tahoma, sans-serif;
     max-width: 450px;
-    font-size: 2.5em;
+    font-size: 2em;
     padding: 30px;
     color: white;
     background-color: rgba(0, 0, 0, 0.521);
