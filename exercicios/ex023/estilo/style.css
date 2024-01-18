@@ -20,11 +20,41 @@ h1{
     padding-top: 50px;
     font-variant: small-caps;
 }
-p{
+header>p{
     padding-bottom: 50px;
 }
 
-a {
+header a, footer a {
     text-decoration: none;
     color: white;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.imagem{
+    background-color: black;
+    color: white;
+}
+
+section.imagem > p{
+    background-color: rgb(41, 41, 41);
+    width: 400px;
+    padding: 5px;
+    border-radius: 2%;
+}
+
+footer{
+    padding: 8px;
+    text-align: center;
+    color: white;
+    background-color: black;
 }
