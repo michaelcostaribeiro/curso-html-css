@@ -8,6 +8,8 @@ body{
     height: 100vh;
 }
 
+
+
 #fundo{
     width: 100vw;
     height: 100vh;
@@ -55,11 +57,33 @@ iframe{
     
 }
 
+#hb:hover{
+    top: 48px;
+    right: -225px;
+}
+
+#hb:active .button{
+    border: 2px solid white;   
+}
+
+
+
 #yb{
     position: fixed;
     top: 130px;
     right: -230px;
 }
+
+#yb:hover{
+    top: 128px;
+    right: -225px;
+}
+
+#yb:active .button{
+    border: 2px solid white;   
+}
+
+
 
 #gb{
     position: fixed;
@@ -67,11 +91,33 @@ iframe{
     right: -230px;
 }
 
+#gb:hover{
+    top: 198px;
+    right: -225px;
+}
+
+#gb:active .button{
+    border: 2px solid white;   
+}
+
+
+
 #ib{
     position: fixed;
     top: 270px;
     right: -230px;
 }
+
+#ib:hover{
+    top: 268px;
+    right: -225px;
+}
+
+#ib:active .button{
+    border: 2px solid white;   
+}
+
+
 
 #tb{
     position: fixed;
@@ -79,9 +125,28 @@ iframe{
     right: -230px;
 }
 
+#tb:hover{
+    top: 338px;
+    right: -225px;
+}
+
+#tb:active .button{
+    border: 2px solid white;   
+}
+
+
+
 #fb{
     position: fixed;
     top: 410px;
     right: -230px;
 }
 
+#fb:hover{
+    top: 408px;
+    right: -225px;
+}
+
+#fb:active .button{
+    border: 2px solid white;   
+}
