@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+#fundo-ytb{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    color: rgb(53, 1, 1);
+    background-color: brown;
+    margin: 0px;
+    text-align: center;
+    width: 100vw;
+    padding: 10px 0px;
+    font-weight: bolder;
+}
