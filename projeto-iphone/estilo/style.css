@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+body{
+    width: 98vw;
+    height: 100vh;
+}
+
+
+
+#fundo{
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url('../imagens/fundo-madeira.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#iphone{
+    width: 100%;
+    height: 100%;
+
+    background-image: url('../imagens/frame-iphone.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+    position: absolute;
+}
+
+iframe{
+    border: 0px dashed red;
+    display: block;
+    position: relative;
+    transform: translateY(-50%);
+    margin: auto auto;
+    top: 50.3%;
+    width: 267px;
+    height: 470px;
+
+}
+
+.button{
+    border-radius: 50%;
+    width: 20%;
+    box-shadow: 4px 4px 7px 2px #0000009e;
+}
+
+#hb{
+    position: fixed;
+    top: 50px;
+    right: -230px;
+    
+}
+
+#hb:hover{
+    top: 48px;
+    right: -225px;
+}
+
+#hb:active .button{
+    border: 2px solid white;   
+}
+
+
+
+#yb{
+    position: fixed;
+    top: 130px;
+    right: -230px;
+}
+
+#yb:hover{
+    top: 128px;
+    right: -225px;
+}
+
+#yb:active .button{
+    border: 2px solid white;   
+}
+
+
+
+#gb{
+    position: fixed;
+    top: 200px;
+    right: -230px;
+}
+
+#gb:hover{
+    top: 198px;
+    right: -225px;
+}
+
+#gb:active .button{
+    border: 2px solid white;   
+}
+
+
+
+#ib{
+    position: fixed;
+    top: 270px;
+    right: -230px;
+}
+
+#ib:hover{
+    top: 268px;
+    right: -225px;
+}
+
+#ib:active .button{
+    border: 2px solid white;   
+}
+
+
+
+#tb{
+    position: fixed;
+    top: 340px;
+    right: -230px;
+}
+
+#tb:hover{
+    top: 338px;
+    right: -225px;
+}
+
+#tb:active .button{
+    border: 2px solid white;   
+}
+
+
+
+#fb{
+    position: fixed;
+    top: 410px;
+    right: -230px;
+}
+
+#fb:hover{
+    top: 408px;
+    right: -225px;
+}
+
+#fb:active .button{
+    border: 2px solid white;   
+}
