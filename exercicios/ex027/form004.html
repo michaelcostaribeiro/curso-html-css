@@ -10,10 +10,23 @@
     <form action="cadastro.php" method="post">
         <fieldset>
             <p>
-                <label for="color">Cor:</label>
+                <label for="icor"> Cor: </label>
                 <input type="color" name="cor" id="icor">
             </p>
+
+            <p>
+                <label for="sat">Nível de Satisfação: </label>
+                <input type="range" name="Satisfação" id="sat" value="5" min="1" max="10">
+            </p>
+
+            <p>
+                <label for="filé"> Foto de perfil: </label>
+                <input type="file" name="Foto" id="filé">
+            </p>
         </fieldset>
+
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Registrar">
     </form>
 </body>
 </html>
