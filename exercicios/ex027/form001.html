@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica com Formulários</title>
+
+    <style>
+        div{
+            background-image: url("FxFyIPJaYAAlvg0.jpg");
+            background-size: cover;
+            background-position: center center;
+            width: 500px;
+            padding: 10px;
+            border-radius: 12px;
+            border: 1px solid rgba(0, 0, 0, 0.836);
+            box-shadow: 12px 10px 10px rgba(0, 0, 0, 0.445);
+        }
+        
+        p{
+            color: white;
+            text-shadow: 0px 0px 4px black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="cadastro.php" method="get">
+            <p>
+                <label for="inome">Nome: </label>
+                <input type="text" name="inome" id="inome" required maxlength="10" minlength="3" autocomplete="off" placeholder="Michael Costa Ribeiro">
+            </p>
+            <p>
+                <label for="iidade">Idade: </label>
+                <input type="number" name="idade" id="iidade" required placeholder="22" min="12" max="80">
+            </p>
+            <p>
+                <label for="iusuario">Usuario: </label>
+                <input type="text" name="iusuario" id="iusuario">
+            </p>
+            <p>
+                <label for="isenha">Senha: </label>
+                <input type="password" name="isenha" id="isenha">
+            </p>
+            <p>
+                <label for="imedia">Media: </label>
+                <input type="number" name="imedia" id="imedia" min="0" max="10" step="0.5" placeholder="8,5">
+            </p>
+            <p>
+                <label for="imn">Mês de Nascimento</label>
+                <input type="month" name="imn" id="imn" value="2024-01">
+            </p>
+            <p>
+                <label for="ida">Que dia é hoje? </label>
+                <input type="date" name="ida" id="ida" value="2024-01-31">
+            </p>
+            <p>
+                <label for="ihoras">Que horas são?</label>
+                <input type="time" name="ihoras" id="ihoras" value="19:39">
+            </p>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Registrar">
+        </form>
+    </div>
+    
+</body>
+</html>
