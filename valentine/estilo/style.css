@@ -1,13 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth
 }
 
 body{
     background-image: url(../imagens/teste-2.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: local;
     background-size: cover;
 
 }
@@ -33,12 +34,13 @@ body{
     align-items: center;
     border-radius: 10px;
     font-family: "Roboto Mono", monospace;
-    color: rgb(235, 199, 38);
     box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.527);
 }
 
-.fitem span{
+.fitem a{
     text-shadow: 2px 1px 2px #3F51B5;
+    text-decoration: none;
+    color: rgb(235, 199, 38);
 }
 
 .imagem{
@@ -49,3 +51,92 @@ body{
     width: 100%;
     height: 800px;
 }
+
+.dotpoint{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 1000px;
+    width: 100%;
+    margin-top: 100px;
+    background-image: linear-gradient(#000317, 20%, #141472, 50%, rgb(98, 105, 146), 70%, #8f9184, 95%, #c2c6b5);
+}
+
+.dot{
+    height: 40px;
+    width: 40px;
+    background-color: #3836ac;
+    border-radius: 50%;
+    flex: none;
+    margin-top: 100px;
+}
+#pponto{
+    margin-top: 400px;
+}
+#sponto{
+    background-color: #7372b8;
+}
+#tponto{
+    background-color: #a3a3bd;
+}
+
+.sessao1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 1600px;
+    width: 100%;
+    background-image: url(../imagens/fundo-shopping.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: local;
+    background-size: cover;
+
+}
+
+.prim{
+    text-align: center;
+    color: white;
+    width: 65%;
+    margin-top: 350px;
+    background-color: rgb(22, 22, 22);
+    padding: 30px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    border-radius: 40px;
+    box-shadow: 6px 7px 2px #000000a1;
+}
+.prim h1{
+    font-size: 2.2em;
+    font-family: "Gloria Hallelujah", cursive;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 2px black;
+}
+.prim p{
+    font-size: 1.4em;
+    font-family: "Sono", monospace;
+    text-align: left;
+    text-justify: auto;
+    text-indent: 40px;
+    line-height: 40px;
+}
+.prim img{
+    width: 50%;
+    margin-top: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px white;
+    border-radius: 5px;
+}
+
+
+.gato{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 2000px;
+}
+#gatost{
+    width: 200px;
+    height: 200px;
+}
+
