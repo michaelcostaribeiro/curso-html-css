@@ -80,7 +80,7 @@ body{
     background-color: #a3a3bd;
 }
 
-.sessao1{
+.sessao{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -129,14 +129,44 @@ body{
 }
 
 
+
 .gato{
     display: flex;
     width: 100%;
     justify-content: center;
+    align-items: center;
     height: 2000px;
 }
-#gatost{
-    width: 200px;
-    height: 200px;
+.gato img{
+    width: 244px;
+    height: 173px;
 }
+@keyframes spin {
+    to {
+      transform: rotateY(5turn);
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+      @supports (animation-timeline: scroll()) {
+          .gato {
+              animation: spin linear both;
+              animation-timeline: scroll();
+            } 
+        }
+    }
+    
+    #i2{
+        margin-top: 0px;
+        background-image: linear-gradient(#a38154, 20%, #ecd196, 50%, #eed9ad, 70%, #c7d3ed, 90%, #95b4f5);
+    }
+    
+    #s2{
+        background-image: url(../imagens/fundo-praia.jpg);
+    }
 
+    #st2{
+        background-color: #01330b;
+    }
+    #st2 img {
+        width: 80%;
+    }
