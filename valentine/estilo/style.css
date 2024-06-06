@@ -4,13 +4,57 @@
     scroll-behavior: smooth
 }
 
+@keyframes spin {
+    to {
+      transform: rotateY(5turn);
+    }
+  }
+  
+@keyframes fadeinsessao1 {
+    0% {
+        opacity: 0;
+    }
+
+    15% {
+        opacity: 0;
+    }
+
+    25%{
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 0.8;
+    }
+
+    32%{
+        opacity:1;
+    }
+
+     }
+  @media (prefers-reduced-motion: no-preference) {
+      @supports (animation-timeline: scroll()) {
+          .gato {
+              animation: spin linear both;
+              animation-timeline: scroll();
+            } 
+            #ani1{
+                animation: fadein forwards;
+                animation-timeline: scroll();
+            }
+
+         }
+    }
+    
+
+
 body{
     background-image: url(../imagens/teste-2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: local;
     background-size: cover;
-
+    
 }
 
 .cont{
@@ -50,6 +94,8 @@ body{
     display: block;
     width: 100%;
     height: 800px;
+    animation-name: fadeinsessao1;
+    animation-duration: 1.5s;
 }
 
 .dotpoint{
@@ -141,20 +187,6 @@ body{
     width: 244px;
     height: 173px;
 }
-@keyframes spin {
-    to {
-      transform: rotateY(5turn);
-    }
-  }
-  @media (prefers-reduced-motion: no-preference) {
-      @supports (animation-timeline: scroll()) {
-          .gato {
-              animation: spin linear both;
-              animation-timeline: scroll();
-            } 
-        }
-    }
-    
     #i2{
         margin-top: 0px;
         background-image: linear-gradient(#a38154, 20%, #ecd196, 50%, #eed9ad, 70%, #c7d3ed, 90%, #95b4f5);
