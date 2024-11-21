@@ -366,7 +366,6 @@ body{
     font-weight: 900;
     font-size: 5em;
     left: 50%;
-    text-decoration: underline;
-    color: rgb(93, 55, 180);
+    color: rgb(255 234 133);
     text-shadow: 2px 2px 2px black;
 }
